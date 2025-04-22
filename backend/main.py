@@ -1,5 +1,5 @@
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://crm-auth-1.onrender.com"],  # в проде укажи домен фронта
+    allow_origins=["frontend-jb2s.onrender.com"],  # в проде укажи домен фронта
     ...
 )
